@@ -287,3 +287,9 @@ body {
 .white-title {
   color: rgb(250,250,250);
 }
+
+.clear {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
