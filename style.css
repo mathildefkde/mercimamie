@@ -1,0 +1,287 @@
+/* general css */
+
+body {
+  margin: 0px;
+  color: #252525;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #252525;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: comic sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  color: #A22962
+}
+
+h5 {
+  font-size: 14px;
+  font-family: comic sans-serif;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1C2F33;
+}
+
+a:hover {
+  color: #e84089;
+}
+
+/* buttons css */
+
+.button-red {
+  background-color: #A22962;
+  color: white;
+}
+
+.button-red:hover {
+  background-color: rgba(243,101,83,0,2);
+  color:#52414C;
+}
+
+.button-blue {
+  background-color: #A22962;
+  color: white;
+  font-size: 20px;
+  font-family: 'Pacifico';
+}
+
+.button-blue:hover {
+  background-color: #A22962;
+  color: #52414C;
+}
+
+.button-pink {
+  background-color: #A22962;
+}
+
+.button-pink:hover {
+  background-color: white;
+  color: #e84089;
+}
+
+/* banner css */
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/four.jpg");
+  background-size: cover;
+  padding: 150px 30px;
+}
+
+#banner h1, #banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-size: 50px;
+}
+
+#banner h2 {
+  font-size: 25px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* card css*/
+
+.card{
+  margin: 20px 0;
+  font-weight: bold;
+  padding: 30px;
+  background: white;
+  border-radius: 3px;
+  border-color: white;
+}
+
+.menus {
+  width: 100%;
+  height: 200px;
+}
+
+.cuisiniers {
+  width: 100%
+  height: 100px
+}
+
+.étapes {
+  width: 50%
+  height: 50px
+}
+
+/* section css*/
+
+.section {
+  padding: 50px;
+}
+
+.section h1, .section h3 {
+  margin-bottom: 50px;
+}
+
+.section-blue {
+  background-color: #FEC0AA;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/mamie.jpg");
+  background-size:cover;
+  height:400px;
+}
+
+#section2 {
+  align-items: center;
+  justify-content: center;
+}
+
+#section3 {
+  align-items: center;
+  justify-content: center;
+}
+
+#mamies {
+  margin: 10px 0;
+  padding: 10px;
+  background: white;
+  border-color: white;
+}
+
+#étape {
+  background: white;
+  border-color: white;
+}
+
+/* footer css*/
+
+#footer{
+  padding: 8px;
+  background: #A22962;
+  color: rgb(30,30,30);
+  justify-content: center;
+}
+
+#footer a {
+  font-size: 30px;
+}
+
+.newsletter {
+  color:white;
+  font-family: 'Pacifico', cursive;
+  font-size:18px;
+}
+
+body {
+  font-family: 'Domine', serif;
+  margin: 0px;
+}
+
+/* navbar css*/
+
+.mynavbar {
+  background-color: rgb(250,250,250);
+  height: 80px;
+  border-bottom: 1px solid #A22962;
+  box-shadow: 1px 1px 3px rgba(243,101,83,0,7);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.navbar-fixed {
+  position: fixed;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none !important;
+  color: rgb(45,45,45);
+  margin-right: 20px;
+}
+
+.navbar-links a:hover {
+  color: #f36553;
+}
+
+.navbar-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hamburger {
+  margin-right: 20px;
+  color: grey;
+}
+
+.hamburger:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.fab {
+  color: rgb(28,47,51);
+  margin-right: 10px;
+}
+
+.fab:hover {
+  color: #FEC0AA;
+}
+
+.list-inline {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.concept {
+  margin: 40px;
+}
+
+.white-title {
+  color: rgb(250,250,250);
+}
