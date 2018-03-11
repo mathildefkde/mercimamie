@@ -196,6 +196,8 @@ a:hover {
   color:white;
   font-family: 'Pacifico', cursive;
   font-size:18px;
+  position: relative; 
+  left: -5000px; 
 }
 
 body {
